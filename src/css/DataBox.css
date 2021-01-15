@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #23262c;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background: #23262c;
+    background: linear-gradient(145deg, #25292f, #202228);
+    box-shadow:  23px 23px 47px #1e2025, 
+                -23px -23px 47px #282c33;
+}
+
+#countryName {
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.wrapperNumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 20px;
+}
+
+.cases {
+    flex-direction: column;
+    align-self: flex-start;
+    margin-right: 20px;
+}
+
+#casesText {
+    color: rgb(94, 94, 94);
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+#totalCases {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: rgb(126, 126, 126);
+    font-size: 19px;
+}
+
+#confirmedToday {
+    margin-left: 10px;
+    color: rgb(126, 126, 126);
+    font-size: 19px;
+}
+
+.deaths {
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#totalDeaths {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: #b83034;
+    font-size: 19px;
+}
+
+#deathsToday {
+    margin-left: 10px;
+    color: #b83034;
+    font-size: 19px;
+}
+
+#casesTextDeaths {
+    color:#b83034;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.recovered {
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#recoveredCases {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color:#30b869;
+    font-size: 19px;
+}
+
+#recoveredToday {
+    margin-left: 10px;
+    color:#30b869;
+    font-size: 19px;
+}
+
+#casesTextRecovered {
+    color: #30b869;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.critical {
+    margin-top: 39px;
+}
+
+#criticalCases {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: #b84d30;
+    font-size: 19px;
+}
+
+#casesTextCritical {
+    color:#b84d30;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1550px) {
+    .wrapper {
+        width: 40vw;
+        height: 40vh;
+        margin-bottom: 40px;
+    }
+    .wrapperNumbers {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    #countryName {
+        font-size: 24px;
+    }
+    #casesText, #casesTextDeaths, #casesTextRecovered, #casesTextCritical {
+        font-size: 17px;
+    }
+    #totalCases {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .wrapper {
+        width: 45vw;
+        height: 45vh;
+        margin-bottom: 40px;
+    }
+    .wrapperNumbers {
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .wrapper {
+        width: 90vw;
+        height: 40vh;
+        margin-bottom: 40px;
+    }
+    .wrapperNumbers {
+        width: 90vw;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    #countryName {
+        font-size: 22px;
+    }
+    #casesText, #casesTextDeaths, #casesTextRecovered, #casesTextCritical {
+        font-size: 15px;
+    }
+    #totalCases {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .wrapper {
+        height: 45vh;
+    }
+}

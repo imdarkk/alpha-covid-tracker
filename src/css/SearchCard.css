@@ -1,0 +1,33 @@
+.wrapperSearch {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    position: relative;
+}
+
+#countrySearch {
+    background-color: #282c34;
+    width: 40%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #1c1c1c;
+    transition: all 0.2s ease-out;
+}
+
+#countrySearch:focus {
+    border-bottom: 2px solid #4287f5;
+    width: 100%;
+    color: white;
+}
+
+#countrySearch::placeholder {
+    font-size: 18px;
+    color: white;
+}
+
+#countrySearch:hover {
+    border-bottom: 2px solid #4287f5;
+    width: 100%;
+    color: white;
+}

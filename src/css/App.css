@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  overflow: hidden;
+}
+
+.wrapperCountries {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
